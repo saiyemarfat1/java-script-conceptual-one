@@ -190,6 +190,7 @@ var arr = [10, 20, 30, 40, 30, 50]
 // }
 
 
+
 // for (var i = 0; i < arr.length; i++) {
 //     if (arr[i] === 30){
 //         continue;
@@ -198,4 +199,45 @@ var arr = [10, 20, 30, 40, 30, 50]
     
 // }
 
+// var x = "5";
 
+// if(x == 5){
+//     console.log("equal to 5")
+// }else{
+//     console.log("not equal to 5")
+// }
+
+// var rainning = true;
+// var umbrella = false;
+
+// if(rainning == true && umbrella == true){
+//     console.log('baire jabu')
+// }else{
+//     console.log('jabona baire')
+// }
+
+// var rainning = false;
+// var umbrellla = false;
+
+// if(rainning === false || umbrellla === true){
+//         console.log('baire jabu')
+// }else{
+//     console.log('jabona baire')
+// }
+
+// var x = 5;
+// var y = 10;
+
+// var remain = x % y;
+
+// console.log(remain)
+
+// abul vai biye korbe, per bus 50, per car 11, badbaki jabe van rikshaw, per person vara 70
+
+var peoples =176;
+var peopleForCars = peoples % 50;
+var peopleForRicksaw = peopleForCars % 11;
+
+console.log([peopleForRicksaw])
+var totalVara = peopleForRicksaw * 70;
+console.log(totalVara)
