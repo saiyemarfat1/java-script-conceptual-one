@@ -107,21 +107,33 @@
 
 // var mark = 57;
 
-// if(mark > 80){
+// if(mark > 80) {
 //     console.log("you got A+")
-// }
-// else if(mark > = 70){
+
+// }else if(mark >= 70) {
 //     console.log("you got A")
-// }
-// else if(mark > 60){
+// }else if(mark > 60){
 //     console.log("you got B")
-// }
-// else if(mark > 50){
+// }else if(mark > 50) {
 //     console.log("you got C")
-// }
-// else if{
+// }else{
 //     console.log("tumi fail.next")
 // }
+
+// var mark = 20;
+// if (mark > 80) {
+//     console.log("you got a A+")
+// }else if(mark>= 70){
+//     console.log("you gota a A")
+// }else if(mark>= 60){
+//     console.log("you gota a B")
+// }
+// else if(mark>= 50){
+//     console.log("you gota a c")
+// }else{
+//     console.log("tumi fail. next")
+// }
+
 
 
 
@@ -185,8 +197,8 @@ var arr = [10, 20, 30, 40, 30, 50]
 //     if (arr[i] === 30){
 //         break;
 //     }
-   
-    
+
+
 // }
 
 
@@ -196,7 +208,7 @@ var arr = [10, 20, 30, 40, 30, 50]
 //         continue;
 //     }
 //     console.log(arr[i])
-    
+
 // }
 
 // var x = "5";
@@ -234,10 +246,41 @@ var arr = [10, 20, 30, 40, 30, 50]
 
 // abul vai biye korbe, per bus 50, per car 11, badbaki jabe van rikshaw, per person vara 70
 
-var peoples =176;
-var peopleForCars = peoples % 50;
-var peopleForRicksaw = peopleForCars % 11;
+// var peoples =176;
+// var peopleForCars = peoples % 50;
+// var peopleForRicksaw = peopleForCars % 11;
 
-console.log([peopleForRicksaw])
-var totalVara = peopleForRicksaw * 70;
-console.log(totalVara)
+// console.log([peopleForRicksaw])
+// var totalVara = peopleForRicksaw * 70;
+// console.log(totalVara)
+
+//  ternary operator
+// var raining = true;
+
+// if(raining === true){
+//     console.log('baire jabona');
+// }else{
+//     console.log('baire jabo');
+// }
+
+// raining === true ? console.log('baire jabona') : console.log("baire jabo");
+
+// var age = 25;
+// var hasLicence = false;
+
+// if (age >= 18) {
+//     if (hasLicence === true) {
+//         console.log("adult with licence")
+//     } else {
+//         console.log('adult but has no liccence')
+//     }
+
+// } else {
+    
+// }
+
+// age >= 18 ? hasLicence === true ? : console.log("adult with licence") : console.log('adult but has no liccence') : console.log("you are not adult")
+
+// const age = 18;
+// const hasLicense = true;
+
